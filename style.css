@@ -1,33 +1,88 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 html, body {
     margin: 0;
+    font-family: "Kumbh Sans", sans-serif;
 }
 
 header {
     display: flex;
-    align-items: center ;
+    align-items: center;
     padding: 12px;
+    padding-left: 250px;
+    padding-right: 250px;
     height: 35px;
     background-color: #1F2937;
 }
 
 header h1 {
-    /* Align vertically */
-    display: flex;
-    align-items: center;
-
     /* Stay in header */
     margin: 0;  
 
     /* Text styling */
-    font-family: "Roberto", sans-serif;
     font-size: 24px;
     color: #F9FAF8;
 }
 
-header img {
-    width: 150px;
+header ul {
+    /* Positioning */
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    margin-left: auto;
+
+    /* Styling */
+    list-style-type: none;
+}
+
+header a {
+    /* Styling */
+    text-decoration: none;
+    color: #F9FAF8;
+
+}
+
+.hero-container {
+    /* Container Positioning */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* Size */
+    padding: 0px 250px 50px 250px;
+    height: 450px;
+
+    /* Container Styling */
+    background-color: #1F2937;
+}
+
+.left {
+    width: 500px;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8; 
+    margin: 0px;
+}
+
+.left h2 {
+    font-size: 16px;
+    font-weight: light;
+    color: #d5d7db;
+    margin-bottom: 16px; 
+}
+
+.left button {
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.right img {
+    width: 500px;
     height: auto;
+    border-radius: 10px;
+    padding: 32px;
 }
