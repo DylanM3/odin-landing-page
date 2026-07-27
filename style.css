@@ -4,7 +4,10 @@
 html, body {
     margin: 0;
     font-family: "Kumbh Sans", sans-serif;
+    scroll-behavior: smooth;
 }
+
+/* HEADER SECTION CSS */
 
 header {
     display: flex;
@@ -43,6 +46,8 @@ header a {
 
 }
 
+/* HERO SECTION STYLING */
+
 .hero-container {
     /* Container Positioning */
     display: flex;
@@ -50,7 +55,9 @@ header a {
     justify-content: space-between;
 
     /* Size */
-    padding: 0px 250px 50px 250px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
     height: 450px;
 
     /* Container Styling */
@@ -73,11 +80,15 @@ header a {
     font-weight: light;
     color: #d5d7db;
     margin-bottom: 16px; 
+    width: 450px;
 }
 
 .left button {
     background-color: #3882F6;
     border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    padding: 8px 20px;
 }
 
 .right img {
@@ -85,4 +96,130 @@ header a {
     height: auto;
     border-radius: 10px;
     margin-left: 25px;
+}
+
+/* INFORMATION SECTION STYLING */
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    padding: 64px;
+
+    text-align: center;
+
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.img-placeholder {
+    border: 4px solid blue;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.info-title {
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 64px;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* QUOTE SECTION STYLING */
+
+.quote-container {
+    height: 325px;
+    background-color: #E5E7EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+
+    max-width: 900px;
+}
+
+.source-container {
+    height: 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.quote-source {
+    padding-bottom: 35px;
+    padding-left: 450px;
+}
+
+/* CALL TO ACTION STYLING */
+
+.cta-container {
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.cta {
+    background-color: #3882F6;
+    width: 900px;
+    height: 60px;
+    padding: 32px;
+    border-radius: 8px;
+
+    display: flex;    
+    justify-content: space-between; 
+    align-items: center; 
+
+    color: #ffffff;
+}
+
+.cta h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.cta h2 {
+    font-size: 18px;
+    font-weight: 450;
+    margin: 0;
+}
+
+.cta button {
+    margin-right: 80px;
+    margin-bottom: -10px;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #ffffff;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+    color: #ffffff;
+    height: 100px
 }
