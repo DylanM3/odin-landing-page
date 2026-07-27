@@ -1,0 +1,33 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center ;
+    padding: 12px;
+    height: 35px;
+    background-color: #1F2937;
+}
+
+header h1 {
+    /* Align vertically */
+    display: flex;
+    align-items: center;
+
+    /* Stay in header */
+    margin: 0;  
+
+    /* Text styling */
+    font-family: "Roberto", sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
